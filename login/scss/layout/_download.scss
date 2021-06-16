@@ -1,0 +1,76 @@
+.download__now img{
+  width: 100%;
+}
+
+.available__on {
+    background-color: $color-black-light-2;
+    margin-top: -8px;
+    position: relative;
+}
+
+.available__title {
+    padding-top: 75px;
+}
+
+.available__title h2 {
+    color: $color-white;
+    font-size: 30px;
+}
+
+.available__title p {
+    color: $color-grey-light-5;
+}
+
+.available__on-item {
+    text-align: center;
+    border-left: 1px solid $color-black-2;
+    min-height: 230px;
+    padding-bottom: 15px;
+    position: relative;
+    transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+}
+
+.available__on-item:hover {
+    background-color: $color-black-1;
+}
+
+.available__on-item i {
+    color: $color-blue-light-2;
+    text-align: center;
+    opacity: 1;
+    font-size: 40px;
+    padding-top: 90px;
+    transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+}
+
+.available__on-item:hover i {
+    opacity: 0;
+}
+
+.available__on-inner {
+    position: absolute;
+    bottom: 93px;
+    width: 100%;
+    opacity: 0;
+     transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+}
+
+.available__on-inner h2 {
+    text-align: center;
+    font-weight:  300;
+    color: $color-grey-light-4;
+    font-size: 16px;
+}
+
+.available__on-item:hover div.available__on-inner {
+    opacity: 1;
+}

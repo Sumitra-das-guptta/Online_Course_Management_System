@@ -1,0 +1,46 @@
+.navbar{
+  font-size: 14px;
+  background-color: rgba(59, 59, 59, 0.7) !important;
+  border-color: rgb(68, 68, 68) !important;
+  z-index: 110;
+  transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+
+}
+
+.navbar-brand{
+  & img{
+    height: 35px;
+    padding-top: 0px;
+    transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+  }
+}
+
+.navbar-dark .navbar-nav .nav-item a {
+  padding-top: 15px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: $color-grey-light-5;
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: $color-blue-light-2;
+  transition: all 1s;
+  -o-transition: all 1s;
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+.navbar-dark .navbar-nav > .active>a,
+.navbar-dark .navbar-nav > .active>a:hover,
+.navbar-dark .navbar-nav > .active>a:focus {
+    background-color: transparent;
+    color: $color-blue-light-2 !important;
+}

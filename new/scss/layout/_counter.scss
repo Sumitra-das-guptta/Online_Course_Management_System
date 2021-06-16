@@ -1,0 +1,38 @@
+.counter{
+  background-image: url("../img/counter-bg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+
+  &__overlay{
+    background-color: $color-overlay;
+    padding: 100px 0 100px 0;
+  }
+
+  &__item i{
+    color: $color-blue-light-2;
+    font-size: 60px;
+  }
+
+  &__item h2{
+    color: $color-grey-light-4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 35px;
+    margin: 15px 0 1px 0;
+  }
+
+  &__item p{
+    color: $color-grey-light-4;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+  }
+}
